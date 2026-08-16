@@ -1,0 +1,2 @@
+label,repeats,query
+low_value_status_scan,1,"SELECT count(*) FROM demo_orders WHERE status = 'PAID';"

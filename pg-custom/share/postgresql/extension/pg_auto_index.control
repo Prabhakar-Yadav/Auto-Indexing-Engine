@@ -1,0 +1,5 @@
+# pg_auto_index extension
+comment = 'workload logger for automatic indexing'
+default_version = '1.0'
+module_pathname = '$libdir/pg_auto_index'
+relocatable = true

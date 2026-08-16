@@ -1,0 +1,123 @@
+2026-04-29 00:06:52.451 IST [28683] FATAL:  shmat(id=327683, addr=0x0, flags=0x0) failed: Operation not permitted
+2026-04-29 00:06:52.451 IST [28683] LOG:  shmctl(327683, 0, 0) failed: Operation not permitted
+2026-04-29 00:06:52.451 IST [28683] LOG:  database system is shut down
+2026-04-29 00:07:13.393 IST [28899] LOG:  starting PostgreSQL 19devel on aarch64-apple-darwin25.3.0, compiled by Apple clang version 17.0.0 (clang-1700.4.4.1), 64-bit
+2026-04-29 00:07:13.398 IST [28899] LOG:  listening on IPv6 address "::1", port 5544
+2026-04-29 00:07:13.398 IST [28899] LOG:  listening on IPv4 address "127.0.0.1", port 5544
+2026-04-29 00:07:13.400 IST [28899] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5544"
+2026-04-29 00:07:13.403 IST [28904] LOG:  database system was shut down at 2026-04-29 00:06:40 IST
+2026-04-29 00:07:13.406 IST [28899] LOG:  database system is ready to accept connections
+2026-04-29 00:07:50.657 IST [28899] LOG:  received fast shutdown request
+2026-04-29 00:07:50.658 IST [28899] LOG:  aborting any active transactions
+2026-04-29 00:07:50.658 IST [28899] LOG:  background worker "logical replication launcher" (PID 28907) exited with exit code 1
+2026-04-29 00:07:50.659 IST [28902] LOG:  shutting down
+2026-04-29 00:07:50.659 IST [28902] LOG:  checkpoint starting: shutdown fast
+2026-04-29 00:07:50.663 IST [28902] LOG:  checkpoint complete: shutdown fast: wrote 16 buffers (0.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.005 s; sync files=17, longest=0.001 s, average=0.001 s; distance=53 kB, estimate=53 kB; lsn=0/017502F8, redo lsn=0/017502F8
+2026-04-29 00:07:50.667 IST [28899] LOG:  database system is shut down
+2026-04-29 00:09:27.512 IST [30461] LOG:  starting PostgreSQL 19devel on aarch64-apple-darwin25.3.0, compiled by Apple clang version 17.0.0 (clang-1700.4.4.1), 64-bit
+2026-04-29 00:09:27.515 IST [30461] LOG:  listening on IPv6 address "::1", port 5544
+2026-04-29 00:09:27.515 IST [30461] LOG:  listening on IPv4 address "127.0.0.1", port 5544
+2026-04-29 00:09:27.515 IST [30461] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5544"
+2026-04-29 00:09:27.521 IST [30466] LOG:  database system was shut down at 2026-04-29 00:07:50 IST
+2026-04-29 00:09:27.526 IST [30461] LOG:  database system is ready to accept connections
+2026-04-29 00:09:42.272 IST [30461] LOG:  received fast shutdown request
+2026-04-29 00:09:42.272 IST [30461] LOG:  aborting any active transactions
+2026-04-29 00:09:42.272 IST [30461] LOG:  background worker "logical replication launcher" (PID 30469) exited with exit code 1
+2026-04-29 00:09:42.272 IST [30464] LOG:  shutting down
+2026-04-29 00:09:42.273 IST [30464] LOG:  checkpoint starting: shutdown fast
+2026-04-29 00:09:42.275 IST [30464] LOG:  checkpoint complete: shutdown fast: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/01750378, redo lsn=0/01750378
+2026-04-29 00:09:42.278 IST [30461] LOG:  database system is shut down
+2026-04-29 00:39:32.098 IST [40019] LOG:  starting PostgreSQL 19devel on aarch64-apple-darwin25.3.0, compiled by Apple clang version 17.0.0 (clang-1700.4.4.1), 64-bit
+2026-04-29 00:39:32.104 IST [40019] LOG:  listening on IPv6 address "::1", port 5544
+2026-04-29 00:39:32.104 IST [40019] LOG:  listening on IPv4 address "127.0.0.1", port 5544
+2026-04-29 00:39:32.106 IST [40019] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5544"
+2026-04-29 00:39:32.111 IST [40024] LOG:  database system was shut down at 2026-04-29 00:09:42 IST
+2026-04-29 00:39:32.117 IST [40019] LOG:  database system is ready to accept connections
+2026-04-29 00:40:07.037 IST [40215] ERROR:  column "indexname" does not exist at character 20
+2026-04-29 00:40:07.037 IST [40215] HINT:  Perhaps you meant to reference the column "hypopg_list_indexes.index_name".
+2026-04-29 00:40:07.037 IST [40215] STATEMENT:  SELECT indexrelid, indexname FROM hypopg_list_indexes;
+2026-04-29 00:44:32.114 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 00:45:24.864 IST [41499] FATAL:  pre-existing shared memory block (key 166245698, ID 196612) is still in use
+2026-04-29 00:45:24.864 IST [41499] HINT:  Terminate any old server processes associated with data directory "/Users/kabirsprakash/Downloads/Auto_Indexing_Project/pg-custom/data".
+2026-04-29 00:45:44.235 IST [41586] ERROR:  cannot drop index ai_demo_orders_pkey because constraint ai_demo_orders_pkey on table ai_demo_orders requires it
+2026-04-29 00:45:44.235 IST [41586] HINT:  You can drop constraint ai_demo_orders_pkey on table ai_demo_orders instead.
+2026-04-29 00:45:44.235 IST [41586] STATEMENT:  DROP INDEX IF EXISTS "ai_demo_orders_pkey"
+2026-04-29 00:46:09.186 IST [40022] LOG:  checkpoint complete: time: wrote 958 buffers (5.8%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=97.061 s, sync=0.008 s, total=97.074 s; sync files=334, longest=0.001 s, average=0.001 s; distance=4445 kB, estimate=4445 kB; lsn=0/04B5E1D0, redo lsn=0/01BA7A00
+2026-04-29 00:49:32.182 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 00:49:38.607 IST [40022] LOG:  checkpoint complete: time: wrote 63 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 9 recycled; write=6.409 s, sync=0.003 s, total=6.425 s; sync files=49, longest=0.001 s, average=0.001 s; distance=146126 kB, estimate=146126 kB; lsn=0/0AA5B368, redo lsn=0/0AA5B308
+2026-04-29 01:09:30.806 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 01:09:31.227 IST [40022] LOG:  checkpoint complete: time: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.412 s, sync=0.001 s, total=0.423 s; sync files=1, longest=0.001 s, average=0.001 s; distance=23 kB, estimate=131515 kB; lsn=0/0AA61188, redo lsn=0/0AA61128
+2026-04-29 18:26:17.546 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 18:26:20.926 IST [40022] LOG:  checkpoint complete: time: wrote 33 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=3.365 s, sync=0.004 s, total=3.382 s; sync files=34, longest=0.001 s, average=0.001 s; distance=48760 kB, estimate=123240 kB; lsn=0/0D9FF580, redo lsn=0/0D9FF520
+2026-04-29 18:31:17.916 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 18:31:18.127 IST [40022] LOG:  checkpoint complete: time: wrote 2 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.203 s, sync=0.001 s, total=0.212 s; sync files=1, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=110917 kB; lsn=0/0DA014B8, redo lsn=0/0DA01458
+2026-04-29 18:36:17.116 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 18:36:22.014 IST [40022] LOG:  checkpoint complete: time: wrote 48 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=4.885 s, sync=0.003 s, total=4.900 s; sync files=35, longest=0.001 s, average=0.001 s; distance=48877 kB, estimate=104713 kB; lsn=0/109BCB20, redo lsn=0/109BCAC0
+2026-04-29 19:06:17.327 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:06:24.641 IST [40022] LOG:  checkpoint complete: time: wrote 72 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 9 recycled; write=7.295 s, sync=0.004 s, total=7.314 s; sync files=48, longest=0.001 s, average=0.001 s; distance=139591 kB, estimate=139591 kB; lsn=0/1920E9C8, redo lsn=0/1920E968
+2026-04-29 19:11:17.633 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:11:21.213 IST [40022] LOG:  checkpoint complete: time: wrote 35 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=3.568 s, sync=0.003 s, total=3.583 s; sync files=32, longest=0.001 s, average=0.001 s; distance=45462 kB, estimate=130178 kB; lsn=0/1BE743B8, redo lsn=0/1BE74320
+2026-04-29 19:16:17.866 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:16:23.071 IST [40022] LOG:  checkpoint complete: time: wrote 51 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 9 recycled; write=5.186 s, sync=0.003 s, total=5.205 s; sync files=43, longest=0.001 s, average=0.001 s; distance=137477 kB, estimate=137477 kB; lsn=0/244B59D0, redo lsn=0/244B5970
+2026-04-29 19:21:17.063 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:21:23.084 IST [40022] LOG:  checkpoint complete: time: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 5 recycled; write=6.004 s, sync=0.005 s, total=6.024 s; sync files=39, longest=0.001 s, average=0.001 s; distance=87474 kB, estimate=132477 kB; lsn=0/29A22548, redo lsn=0/29A224E8
+2026-04-29 19:26:17.074 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:26:23.192 IST [40022] LOG:  checkpoint complete: time: wrote 60 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 6 recycled; write=6.099 s, sync=0.005 s, total=6.119 s; sync files=36, longest=0.001 s, average=0.001 s; distance=89176 kB, estimate=128147 kB; lsn=0/2F1386B8, redo lsn=0/2F138658
+2026-04-29 19:31:17.187 IST [40022] LOG:  checkpoint starting: time
+2026-04-29 19:35:47.065 IST [40022] LOG:  checkpoint complete: time: wrote 3300 buffers (20.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=269.869 s, sync=0.002 s, total=269.878 s; sync files=34, longest=0.001 s, average=0.001 s; distance=43801 kB, estimate=119712 kB; lsn=0/31DCE1B0, redo lsn=0/31BFEE10
+2026-04-29 19:36:11.696 IST [40019] LOG:  received fast shutdown request
+2026-04-29 19:36:11.697 IST [40019] LOG:  aborting any active transactions
+2026-04-29 19:36:11.698 IST [25369] FATAL:  terminating connection due to administrator command
+2026-04-29 19:36:11.698 IST [25369] DETAIL:  Signal sent by PID 40019, UID 501.
+2026-04-29 19:36:11.698 IST [24091] FATAL:  terminating connection due to administrator command
+2026-04-29 19:36:11.698 IST [24091] DETAIL:  Signal sent by PID 40019, UID 501.
+2026-04-29 19:36:11.704 IST [40019] LOG:  background worker "logical replication launcher" (PID 40027) exited with exit code 1
+2026-04-29 19:36:11.704 IST [40022] LOG:  shutting down
+2026-04-29 19:36:11.705 IST [40022] LOG:  checkpoint starting: shutdown fast
+2026-04-29 19:36:11.716 IST [40022] LOG:  checkpoint complete: shutdown fast: wrote 24 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.012 s; sync files=16, longest=0.001 s, average=0.001 s; distance=1853 kB, estimate=107926 kB; lsn=0/31DCE268, redo lsn=0/31DCE268
+2026-04-29 19:36:11.739 IST [40019] LOG:  database system is shut down
+2026-04-29 19:36:12.384 IST [27616] LOG:  starting PostgreSQL 19devel on aarch64-apple-darwin25.3.0, compiled by Apple clang version 17.0.0 (clang-1700.4.4.1), 64-bit
+2026-04-29 19:36:12.386 IST [27616] LOG:  listening on IPv6 address "::1", port 5544
+2026-04-29 19:36:12.386 IST [27616] LOG:  listening on IPv4 address "127.0.0.1", port 5544
+2026-04-29 19:36:12.400 IST [27616] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5544"
+2026-04-29 19:36:12.406 IST [27628] LOG:  database system was shut down at 2026-04-29 19:36:11 IST
+2026-04-29 19:36:12.410 IST [27616] LOG:  database system is ready to accept connections
+2026-04-29 19:41:12.399 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 19:45:42.065 IST [27626] LOG:  checkpoint complete: time: wrote 476 buffers (2.9%), wrote 3 SLRU buffers; 0 WAL file(s) added, 3 removed, 0 recycled; write=269.607 s, sync=0.003 s, total=269.668 s; sync files=52, longest=0.001 s, average=0.001 s; distance=45489 kB, estimate=45489 kB; lsn=0/3F4C1AE0, redo lsn=0/34A3A6F0
+2026-04-29 19:46:12.071 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 19:50:42.021 IST [27626] LOG:  checkpoint complete: time: wrote 381 buffers (2.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 16 recycled; write=269.919 s, sync=0.006 s, total=269.951 s; sync files=56, longest=0.001 s, average=0.001 s; distance=261419 kB, estimate=261419 kB; lsn=0/50823A18, redo lsn=0/44985508
+2026-04-29 19:51:21.443 IST [36053] ERROR:  duplicate key value violates unique constraint "pg_class_relname_nsp_index"
+2026-04-29 19:51:21.443 IST [36053] DETAIL:  Key (relname, relnamespace)=(pgai_ai_demo_orders_customer_id_be15d382, 2200) already exists.
+2026-04-29 19:51:21.443 IST [36053] STATEMENT:  CREATE INDEX IF NOT EXISTS "pgai_ai_demo_orders_customer_id_be15d382" ON "ai_demo_orders" ("customer_id")
+2026-04-29 19:56:12.012 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 20:00:42.032 IST [27626] LOG:  checkpoint complete: time: wrote 1626 buffers (9.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 17 recycled; write=269.998 s, sync=0.003 s, total=270.021 s; sync files=59, longest=0.001 s, average=0.001 s; distance=284068 kB, estimate=284068 kB; lsn=0/5B427D18, redo lsn=0/55EEE828
+2026-04-29 20:26:12.006 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 20:26:18.630 IST [27626] LOG:  checkpoint complete: time: wrote 65 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 11 recycled; write=6.600 s, sync=0.004 s, total=6.628 s; sync files=41, longest=0.001 s, average=0.001 s; distance=174442 kB, estimate=273106 kB; lsn=0/60949328, redo lsn=0/609492C8
+2026-04-29 20:31:12.730 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 20:31:18.627 IST [27626] LOG:  checkpoint complete: time: wrote 58 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 8 recycled; write=5.881 s, sync=0.004 s, total=5.898 s; sync files=42, longest=0.001 s, average=0.001 s; distance=134393 kB, estimate=259234 kB; lsn=0/68C877F0, redo lsn=0/68C87758
+2026-04-29 22:56:54.660 IST [27626] LOG:  checkpoint starting: time
+2026-04-29 22:57:01.498 IST [27626] LOG:  checkpoint complete: time: wrote 67 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=6.822 s, sync=0.005 s, total=6.841 s; sync files=33, longest=0.001 s, average=0.001 s; distance=43945 kB, estimate=237705 kB; lsn=0/6B771D78, redo lsn=0/6B771CE0
+2026-04-30 02:01:54.146 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 02:01:58.257 IST [27626] LOG:  checkpoint complete: time: wrote 40 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 5 recycled; write=4.086 s, sync=0.006 s, total=4.112 s; sync files=36, longest=0.001 s, average=0.001 s; distance=89034 kB, estimate=222838 kB; lsn=0/70E645E8, redo lsn=0/70E64588
+2026-04-30 02:06:54.247 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 02:11:24.112 IST [27626] LOG:  checkpoint complete: time: wrote 3290 buffers (20.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 1 removed, 2 recycled; write=269.822 s, sync=0.002 s, total=269.866 s; sync files=33, longest=0.001 s, average=0.001 s; distance=43562 kB, estimate=204911 kB; lsn=0/74D3FAF0, redo lsn=0/738EF158
+2026-04-30 02:16:54.108 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 02:21:24.132 IST [27626] LOG:  checkpoint complete: time: wrote 3313 buffers (20.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 2 removed, 2 recycled; write=269.984 s, sync=0.002 s, total=270.028 s; sync files=36, longest=0.001 s, average=0.001 s; distance=66359 kB, estimate=191056 kB; lsn=0/779BE088, redo lsn=0/779BD088
+2026-04-30 02:41:54.095 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 02:41:59.416 IST [27626] LOG:  checkpoint complete: time: wrote 52 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 1 removed, 5 recycled; write=5.287 s, sync=0.005 s, total=5.322 s; sync files=39, longest=0.001 s, average=0.001 s; distance=89104 kB, estimate=180860 kB; lsn=0/7D0C1200, redo lsn=0/7D0C1168
+2026-04-30 13:45:18.160 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 13:45:23.997 IST [27626] LOG:  checkpoint complete: time: wrote 57 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 1 removed, 4 recycled; write=5.801 s, sync=0.003 s, total=5.838 s; sync files=38, longest=0.001 s, average=0.001 s; distance=87418 kB, estimate=171516 kB; lsn=0/8261FCD0, redo lsn=0/8261FC70
+2026-04-30 14:15:06.333 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 14:15:12.346 IST [27626] LOG:  checkpoint complete: time: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 1 removed, 4 recycled; write=5.995 s, sync=0.001 s, total=6.015 s; sync files=37, longest=0.001 s, average=0.001 s; distance=89179 kB, estimate=163282 kB; lsn=0/87D36BB8, redo lsn=0/87D36B20
+2026-04-30 15:30:51.023 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 15:30:55.015 IST [27626] LOG:  checkpoint complete: time: wrote 39 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 1 removed, 5 recycled; write=3.954 s, sync=0.003 s, total=3.993 s; sync files=35, longest=0.001 s, average=0.001 s; distance=87324 kB, estimate=155687 kB; lsn=0/8D27DE58, redo lsn=0/8D27DDF8
+2026-04-30 16:23:57.264 IST [27626] LOG:  checkpoint starting: time
+2026-04-30 16:28:27.070 IST [27626] LOG:  checkpoint complete: time: wrote 60 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 11 recycled; write=269.771 s, sync=0.007 s, total=269.807 s; sync files=71, longest=0.001 s, average=0.001 s; distance=179542 kB, estimate=179542 kB; lsn=0/A35C89A8, redo lsn=0/981D39A0
+2026-05-13 18:31:11.004 IST [27616] LOG:  received smart shutdown request
+2026-05-13 18:31:11.009 IST [27616] LOG:  background worker "logical replication launcher" (PID 27631) exited with exit code 1
+2026-05-13 18:31:11.010 IST [27626] LOG:  shutting down
+2026-05-13 18:31:11.011 IST [27626] PANIC:  could not open file "/Users/kabirsprakash/Downloads/Auto_Indexing_Project/pg-custom/data/global/pg_control": No such file or directory
+2026-05-13 18:31:11.012 IST [27616] LOG:  checkpointer process (PID 27626) was terminated by signal 6: Abort trap: 6
+2026-05-13 18:31:11.012 IST [27616] LOG:  terminating any other active server processes
+2026-05-13 18:31:11.014 IST [27616] LOG:  abnormal database system shutdown
+2026-05-13 18:31:11.027 IST [27616] LOG:  database system is shut down
